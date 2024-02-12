@@ -1,0 +1,33 @@
+html
+{
+    width: 1440px;
+    background-color: hsl(212, 45%, 89%);
+}
+
+
+.rectangle
+{
+    background-color: white;
+    width: 500px;
+    height: 700px;
+    padding: 10px;
+    inset: 0;
+    margin: auto;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.rectangle img
+{
+    align-items: center;
+    width: 90%;
+    border-radius: 40px;
+}
+
+.rectangle h1, p
+{
+    text-align: center;
+    font-size: 30px;
+}
